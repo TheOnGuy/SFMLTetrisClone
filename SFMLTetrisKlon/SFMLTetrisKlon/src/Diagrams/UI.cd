@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SFMLTetrisKlon.src.Core.Application">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>src\Core\Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.Core.Game">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAACAACEAI=</HashCode>
+      <FileName>src\Core\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.Core.GameObject">
+    <Position X="4.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>FAQAAAAEAAAAGgAAAAACQAQAAAAAIAAUAAAAAAAAAAA=</HashCode>
+      <FileName>src\Core\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.Scenes.SceneManager">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Scenes\SceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.Scenes.Scene">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARgAAAAAAAAAgAAAAAEAAAAAABAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Scenes\Scene.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.UI.UserInterface">
+    <Position X="4.5" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAEgAAAgAAjABgIgJQAAAAAEAhAAQAAAA=</HashCode>
+      <FileName>src\UI\UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.UI.UIElement">
+    <Position X="7.25" Y="5.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>FAQEIAAMAAAhsgAAAAJMAAQCAQJQEAIUAAAAAAIAAAA=</HashCode>
+      <FileName>src\UI\UIElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.SoundManager">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAIAAgAAAAAAAAABABAAAAAIAA=</HashCode>
+      <FileName>src\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.PlayerController">
+    <Position X="0.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQggIwEAAAAAAgAAAAAAQAgAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>src\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.Arena">
+    <Position X="2.25" Y="16.25" Width="2.5" />
+    <InheritanceLine Type="SFMLTetrisKlon.src.Core.GameObject" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="5.252" />
+        <Point X="5.25" Y="5.51" />
+        <Point X="4.34" Y="5.51" />
+        <Point X="4.34" Y="16.01" />
+        <Point X="3.188" Y="16.01" />
+        <Point X="3.188" Y="16.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQBoIABAIECAhBYAAAADABIAKAAgEEEAAAAAcACAII=</HashCode>
+      <FileName>src\Arena.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.BlockInformation">
+    <Position X="5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\BlockInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.Settings">
+    <Position X="6.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAJAAAACAAAAAAAAAAIAAAACAAA=</HashCode>
+      <FileName>src\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameScenes.GameScene">
+    <Position X="6.75" Y="21" Width="2" />
+    <InheritanceLine Type="SFMLTetrisKlon.src.Scenes.Scene" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="8.848" />
+        <Point X="3" Y="15.75" />
+        <Point X="4.257" Y="15.75" Type="JumpStart" />
+        <Point X="4.423" Y="15.75" Type="JumpEnd" />
+        <Point X="7.007" Y="15.75" Type="JumpStart" />
+        <Point X="7.173" Y="15.75" Type="JumpEnd" />
+        <Point X="8.5" Y="15.75" />
+        <Point X="8.5" Y="20.625" />
+        <Point X="8.083" Y="20.625" />
+        <Point X="8.083" Y="21" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAACACAABAgAAAAAABAAAMAAA=</HashCode>
+      <FileName>src\GameScenes\GameScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameScenes.MainMenuScene">
+    <Position X="9" Y="21" Width="2" />
+    <InheritanceLine Type="SFMLTetrisKlon.src.Scenes.Scene" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="8.848" />
+        <Point X="3" Y="13.972" />
+        <Point X="4.257" Y="13.972" Type="JumpStart" />
+        <Point X="4.423" Y="13.972" Type="JumpEnd" />
+        <Point X="7.007" Y="13.972" Type="JumpStart" />
+        <Point X="7.173" Y="13.972" Type="JumpEnd" />
+        <Point X="8.792" Y="13.972" Type="JumpStart" />
+        <Point X="8.958" Y="13.972" Type="JumpEnd" />
+        <Point X="10" Y="13.972" />
+        <Point X="10" Y="21" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>src\GameScenes\MainMenuScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameMenus.MainMenu">
+    <Position X="0.5" Y="25.25" Width="2" />
+    <InheritanceLine Type="SFMLTetrisKlon.src.Core.GameObject" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="5.252" />
+        <Point X="5.25" Y="5.59" />
+        <Point X="0.34" Y="5.59" />
+        <Point X="0.34" Y="25.01" />
+        <Point X="1.25" Y="25.01" />
+        <Point X="1.25" Y="25.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQACAEhACAAEgABQAAAAAAAAACAQAABAEAAAAAhIAE=</HashCode>
+      <FileName>src\GameMenus\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameMenus.OptionsMenu">
+    <Position X="2.75" Y="25.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAACEhggAAAABAAAAAAAAABAAAAhAAADBAE=</HashCode>
+      <FileName>src\GameMenus\OptionsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameMenus.GameMenu">
+    <Position X="5" Y="25.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAACAAEgAABAAAAAACAAAAgAAAAAAIAACFAAg=</HashCode>
+      <FileName>src\GameMenus\GameMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameMenus.PauseMenu">
+    <Position X="7.25" Y="25.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAACAAEwAAQACAAAAAAAIAAAAAAEAAAAABAAA=</HashCode>
+      <FileName>src\GameMenus\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.GameMenus.GameOverMenu">
+    <Position X="9.5" Y="25.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAiAAEwABAgCAAAAAAABAAAQACEAAAAIBAAA=</HashCode>
+      <FileName>src\GameMenus\GameOverMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.UI.Components.Button">
+    <Position X="0.5" Y="31.25" Width="2" />
+    <InheritanceLine Type="SFMLTetrisKlon.src.UI.UIElement" FixedToPoint="true">
+      <Path>
+        <Point X="8.875" Y="13.722" />
+        <Point X="8.875" Y="25.188" />
+        <Point X="7.188" Y="25.188" />
+        <Point X="7.188" Y="31.156" />
+        <Point X="1.083" Y="31.156" />
+        <Point X="1.083" Y="31.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIkAgAgJAAAAAAkAACAAABAAQAAAAAAACAAA=</HashCode>
+      <FileName>src\UI\Components\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.UI.Components.Image">
+    <Position X="2.75" Y="31.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAgAABAAAAAEAAACAACAAAAIAoAgAAAA=</HashCode>
+      <FileName>src\UI\Components\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.UI.Components.Label">
+    <Position X="5.25" Y="31.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAYkAgAgIAACAAAkAACAAAAAAQAAAAAAACAAA=</HashCode>
+      <FileName>src\UI\Components\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFMLTetrisKlon.src.UI.Components.TextBox">
+    <Position X="7.5" Y="31.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIkAgAgIAAIAAAkAACAAAAAAQAAAAAAACBAA=</HashCode>
+      <FileName>src\UI\Components\TextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SFMLTetrisKlon.src.Block">
+    <Position X="5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAgAAAAAAAAkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\BlockInformation.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="SFMLTetrisKlon.src.UI.Components.Alignment">
+    <Position X="9.75" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAIAAA=</HashCode>
+      <FileName>src\UI\Components\Label.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
